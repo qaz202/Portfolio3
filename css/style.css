@@ -1,0 +1,243 @@
+/* -----------------------------navbar */
+
+.navbar {
+    background-color: #8FCEC1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .10);
+}
+
+
+/* -----------------------------header */
+
+header {
+    height: 550px;
+}
+
+.title {
+    font-size: 50px;
+    margin-top: 100px;
+    color: white;
+}
+
+.circle {
+    margin-top: 100px;
+    height: 500px;
+    background-color: #8FCEC1;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .10);
+}
+
+.face {
+    margin: 110px 90px;
+    width: 250px;
+    height: 250px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .10);
+}
+
+.self-box {
+    padding-top: 120px;
+}
+
+.self-line {
+    background-color: darkslategrey;
+    margin-top: 20px;
+    width: 100px;
+    height: 10px;
+    border-radius: 75px;
+}
+
+.word {
+    width: 600px;
+    padding-top: 20px;
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* ------------------------------section photo */
+
+.photo {
+    margin-top: 560px;
+    height: 1100px;
+    background-color: whitesmoke;
+}
+
+.photo-tit {
+    padding-top: 90px;
+}
+
+.img-coffee {
+    width: 1000px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.coffee-box , .cow-box , .old-box , .drink-box {
+    display: flex;
+    flex-direction: column;
+    font-family: 微軟正黑體;
+}
+
+.coffee-box {
+    width: 1570px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.coffee-box>p {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.img-cow {
+    width: 1000px;
+    margin-top: 200px;
+}
+
+.cow-box {
+    margin-top: 50px;
+}
+
+.cow-box>p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.img-old {
+    width: 800px;
+    margin-top: 90px;
+}
+
+.old-box>p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.old-box>h3 , .cow-box>h2 , .coffee-box>h2 , .shop-box>h3 {
+    color: teal;
+    font-size: 50px;
+}
+
+.img-shop{
+    width: 300px;
+    margin-top: 130px;
+    margin-left: 50px;
+}
+
+.shopping {
+    margin-left: 500px;
+}
+
+.shop-box {
+    margin-top: 50px;
+    margin-left: 370px;
+}
+
+.shop-box>p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.coffeee {
+    margin-left: 100px;
+}
+
+/* ---------------------------------section interface */
+
+.interface {
+    background-color: darkslategrey;
+    color: white;
+    height: 1100px;
+}
+
+.design1 {
+    margin: 100px 0 10px 0;
+    font-family: 微軟正黑體;
+}
+
+.intro-line {
+    width: 100px;
+    height: 10px;
+    background-color: mediumspringgreen;
+    border-radius: 75px;
+    margin: 0px auto;
+}
+
+.name1 {
+    font-size: 30px;
+    font-family: 微軟正黑體;
+}
+
+.interface-item {
+    border-radius: 50px;
+    margin: 100px 0 50px 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .10);
+}
+
+.interface-box:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in;
+}
+
+/* ------------------------------------section product */
+
+.product {
+    height: 1100px;
+    background-color: #699e93;
+    color: white;
+}
+
+.design2 {
+    margin: 100px 0 10px 0;
+    font-family: 微軟正黑體;
+}
+
+.intro-line2 {
+    width: 100px;
+    height: 10px;
+    background-color: darkslategrey;
+    border-radius: 75px;
+    margin: 0 auto;
+}
+
+.name2 {
+    font-family: 微軟正黑體;
+}
+
+.product-item {
+    border-radius: 50px;
+    margin: 100px 0 50px 0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .10);
+    font-family: 微軟正黑體;
+}
+
+.product-box:hover {
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+
+/* ----------------------------------------footer about */
+
+.footer {
+    height: 400px;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.about {
+    padding-top: 100px;
+    font-size: 50px;
+}
+
+.intro-line3 {
+    width: 100px;
+    height: 10px;
+    border-radius: 30px;
+    margin: 50px auto;
+    background-color: mediumspringgreen;
+}
+
+.about-box {
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 50px;
+}
